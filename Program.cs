@@ -1,13 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
-//See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
+int a = 5;
+int b = 7;
 
-Console.Clear();
+if (a < b)
+{
 
-Console.Write("введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-int sqrt = number * number;
+    Console.Write("min = a");
+}
+else
+{
 
-Console.Write("Число в квадрате " + sqrt);
-123
+    if (a > b)
+    Console.Write("max = b" );
+}
